@@ -21,8 +21,6 @@ int exe(char *content, stack_t **stack, unsigned int counter, FILE *file)
 				{"mod", _mod},
 				{"pchar", _pchar},
 				{"pstr", _pstr},
-				{"rotl", _rotl},
-				{"rotr", _rotr},
 				{"queue", _queue},
 				{"stack", _stack},
 				{NULL, NULL}

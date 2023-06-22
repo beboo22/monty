@@ -69,8 +69,6 @@ void _mul(stack_t **hd, unsigned int cntr);
 void _mod(stack_t **hd, unsigned int cntr);
 void _pchar(stack_t **hd, unsigned int cntr);
 void _pstr(stack_t **hd, unsigned int cntr);
-void _rotl(stack_t **hd,  __attribute__((unused)) unsigned int cntr);
-void _rotr(stack_t **hd, __attribute__((unused)) unsigned int cntr);
 void adnode(stack_t **hd, int n);
 void adqueue(stack_t **hd, int n);
 void _queue(stack_t **hd, unsigned int cntr);
