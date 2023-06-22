@@ -57,4 +57,9 @@ void f_queue(stack_t **head, unsigned int counter);
 void addqueue(stack_t **head, int n);
 void f_sub(stack_t **head, unsigned int counter);
 void f_swap(stack_t **head, unsigned int counter);
+void f_nop(stack_t **head, unsigned int counter);
+void f_pnt(stack_t **head, unsigned int counter);
+void f_stack(stack_t **head, unsigned int counter);
+void f_pop(stack_t **head, unsigned int counter);
+void f_pchar(stack_t **head, unsigned int counter);
 #endif
