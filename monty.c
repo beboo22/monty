@@ -23,10 +23,12 @@ int main(int argc, char *argv[])
 	file = fopen(argv[1], "r");
 	bus.file = file;
 	if (!file)
+
 	{
 		fprintf(stderr, "Error: Can't open file %s\n", argv[1]);
 		exit(EXIT_FAILURE);
 	}
+
 	while (read_line > 0)
 	{
 		content = NULL;
@@ -35,10 +37,11 @@ int main(int argc, char *argv[])
 		counter++;
 		if (read_line > 0)
 		{
-			execute(content, &stack, counter, file);
+			exe(content, &stack, counter, file);
 		}
 		free(content);
 	}
+
 	free_stack(stack);
 	fclose(file);
 return (0);
